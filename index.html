@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/f1d4866e4f.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Krub:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <title>Curriculum Vitae</title>
+</head>
+<body>
+    <header>
+        <nav class="barra-nav contenedor-barra">
+            <a href="#">Inicio</a>
+            <a href="#ir-section">Sobre Mi</a>
+            <a href="#ir-contacto">Contacto</a>
+        </nav>
+    
+    </header>
+
+    
+
+    <main class="main">
+        <div class="main-contenido1">
+            <h1>Mi Curriculum Vitae</h1>
+            <p><span>Isaiah Roberts</span></p>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+            <p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
+            <p> an unknown printer took a galley of type and scrambled it to make a type book.</p>
+            
+        </div>
+        <div>
+            <img src="https://xsgames.co/randomusers/assets/avatars/male/60.jpg" alt="avatar" class="avatar">
+        </div>
+    </main>
+
+    
+    <section class="sobre-mi contenedor sombra" id="ir-section">
+        <div class="contenido-sobre-mi">
+            <h2>Sobre Mi</h2>
+            <ul class="ul-section">
+                <li><span>Nombre</span> Isaiah Roberts</li>
+                <li><span>Edad</span> 36</li>
+                <li><span>Dirección</span> Buenos Aires, Argentina</li>
+                <li><span>Teléfono</span> (532) 968-4694</li>
+                <li><span>Email</span> isaiah.roberts@example.com</li>
+            </ul>
+            <h2 class="habilidades-titulo">Habilidades</h2>
+            <ul>
+                <li>
+                    <p class="parrafo-section">Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                        Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
+                        when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
+                        It has survived not only five centuries, but also the leap into electronic typesetting, 
+                        remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, 
+                        and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                    </p>
+                </li>
+                <li>
+                    <p class="parrafo-section">Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                        Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
+                        when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
+                        It has survived not only five centuries, but also the leap into electronic typesetting, 
+                        remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, 
+                        and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                    </p>
+                </li>
+                <li>
+                    <p class="parrafo-section">Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                        Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
+                        when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
+                        It has survived not only five centuries, but also the leap into electronic typesetting, 
+                        remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, 
+                        and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                    </p>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <aside class="contenedor">
+        <!-- -->
+        <button  id="botonMostrar" type="button"  class="boton">Ver mis proyectos</button>
+        <button  id="botonOcultar" type="button"  class="boton">Ocultar proyectos</button>
+        
+        <div id="trabajos-id" class="cards-contenedor">
+            <div class="card">
+                <figure>
+                    <img src="img01.jpg">
+                </figure>
+                <div class="contenido">
+                    <h3>Venta Online</h3>
+                    <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis odio, 
+                    corrupti deleniti dolore dolorem exercitationem labore repellat nostrum 
+                    ullam laboriosam!</p>
+                    <a href="#">Ir a la página</a>
+                </div>
+            </div>
+
+            <div class="card">
+                <figure>
+                    <img src="img02.jpg">
+                </figure>
+                <div class="contenido">
+                    <h3>Blog Café</h3>
+                    <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis odio, 
+                    corrupti deleniti dolore dolorem exercitationem labore repellat nostrum 
+                    ullam laboriosam!</p>
+                    <a href="#">Ir a la página</a>
+                </div>
+            </div>
+
+            <div class="card">
+                <figure>
+                    <img src="img03.jpg">
+                </figure>
+                <div class="contenido">
+                    <h3>Bienes Raices</h3>
+                    <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis odio, 
+                    corrupti deleniti dolore dolorem exercitationem labore repellat nostrum 
+                    ullam laboriosam!</p>
+                    <a href="#">Ir a la página</a>
+                </div>
+            </div>
+        </div>
+    </aside>
+
+    <section class="contenedor">
+        <h2 id="ir-contacto">Contacto</h2>
+
+        <form class="formulario">
+            <fieldset>
+                <legend>Contáctame llenando todos los datos</legend>
+
+                <div class="contenedor-campos">
+                    <div class="campo">
+                        <label>Nombre</label>
+                        <input type="text" placeholder="Tu Nombre" class="input-text">
+                    </div>
+                
+                    <div class="campo">
+                        <label>Teléfono</label>
+                        <input type="tel" placeholder="Tu Teléfono" class="input-text">
+                    </div>
+                    
+                    <div class="campo">
+                        <label>Mail</label>
+                        <input type="email" placeholder="Tu Mail" class="input-text">
+                    </div>
+                    
+                    <div class="campo">
+                        <label>Mensaje</label>
+                        <textarea name="" id="" cols="30" rows="10" class="input-text"></textarea>    
+                    </div>
+                </div>
+                <div class="enviar">
+                    <button type="submit" class="boton">Enviar</button>
+                </div>
+            
+            </fieldset>
+
+        </form>
+
+    </section>
+
+    <footer>
+
+        <div class="contenedor-contacto">
+            <ul class="ul-section-bot">
+                <li><span>Teléfono</span> (532) 968-4694</li>
+                <li><span>Email</span> isaiah.roberts@example.com</li>
+            </ul>
+            
+            <div class="contenedor-iconos">
+                <a href="https://www.facebook.com"  target="_blank"><i class="fa-brands fa-facebook icono"></i></a>
+                <a href="https://ar.linkedin.com/"  target="_blank"><i class="fa-brands fa-linkedin icono"></i></a>
+                <a href="https://www.instagram.com/"  target="_blank"><i class="fa-brands fa-square-instagram icono"></i></a>
+            </div>
+            
+        </div>
+      
+    </footer>
+
+    
+    <script src="js/index.js"></script>
+</body>
+</html>
